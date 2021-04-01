@@ -1,0 +1,31 @@
+{
+    "firstname" : "capiaux",
+    "lastname" : "charles",
+    "job" : "Développeur javascript",
+    "experience" :
+        [
+            {
+                "name" : "Une experience",
+                "description" : "j'ai expérimenté",
+                "date" : "25 septembre 2015",
+                "datefin" : "12 septembre 2016"
+            },
+            {
+                "name" : "Une deuxieme experience",
+                "description" : "j'ai expérimenté 2 fois",
+                "date" : "17 septembre 2025",
+                "datefin" : "22 septembre 2036" 
+            },
+            {
+                "name" : "Une troisieme experience",
+                "description" : "j'ai expérimenté 3 fois",
+                "date" : "21 septembre 1918",
+                "datefin" : "31 septembre 1926" 
+            }
+        ],
+    "realisation" : 
+        {
+            "title" : "Un projet à moi",
+            "description" : "Mon magnifique projet"
+        }   
+}
