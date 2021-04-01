@@ -1,27 +1,27 @@
 {
-    "firstname" : "Capiaux",
-    "lastname" : "Charles",
-    "age" : "20",
-    "job" : "Développeur javascript",
+    "firstname" : "Trouillard",
+    "lastname" : "Aymeric",
+    "age" : "Vieux",
+    "job" : "Développeur php",
     "experience" :
         [
             {
                 "name" : "Une experience",
                 "description" : "j'ai expérimenté",
-                "date" : "25 septembre 2015",
-                "datefin" : "12 septembre 2016"
+                "date" : "25 juin 2015",
+                "datefin" : "12 juillet 2016"
             },
             {
                 "name" : "Une deuxieme experience",
                 "description" : "j'ai expérimenté 2 fois",
-                "date" : "17 septembre 2025",
+                "date" : "17 novembre 2025",
                 "datefin" : "22 septembre 2036" 
             },
             {
                 "name" : "Une troisieme experience",
                 "description" : "j'ai expérimenté 3 fois",
                 "date" : "21 septembre 1918",
-                "datefin" : "31 septembre 1926" 
+                "datefin" : "31 décembre 1926" 
             }
         ],
     "realisation" : 
