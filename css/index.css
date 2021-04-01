@@ -1,9 +1,19 @@
+.card {
+    border-color: turquoise;
+}
+
 .card-text {
     color: turquoise;
 }
 
 #pbord {
     padding: 20px;
-    background-color: #D1D1D1;
+    background-color: turquoise;
     color: white;
+}
+
+#realisation {
+    margin-top: 10px;
+    padding: 20px;
+    border: 2px turquoise solid;
 }

@@ -1,15 +1,16 @@
   class Personne {
-    constructor(nom, prenom, age, description, experience) {
+    constructor(nom, prenom, age, description, experience, realisation) {
       this.nom = nom;
       this.prenom = prenom;
       this.age = age;
       this.description = description;
       this.experience = experience;
+      this.realisation = realisation;
     }
   }
 
   function loadPersonneJSON(unePersonne){
-    var res =  new Personne(unePersonne.firstname, unePersonne.lastname, unePersonne.age, unePersonne.job, unePersonne.experience);
+    var res =  new Personne(unePersonne.firstname, unePersonne.lastname, unePersonne.age, unePersonne.job, unePersonne.experience, unePersonne.realisation);
     return res;
   }
 
@@ -23,7 +24,6 @@
   $.getJSON("../js/charles.json").done(function(data){
     moi = loadPersonneJSON(data);
     tab.push(moi);
-    
     changementPersonne();
   });
 
@@ -61,7 +61,9 @@ function changementPersonne(){
 
     var exp = "";
     for(expe of tab[cpt].experience){
-      exp += expe.name + " du " + expe.date + " au " + expe.datefin + " : " + expe.description +"\n";
+      exp += expe.name + " du " + expe.date + " au " + expe.datefin + " : " + expe.description +"</br></br>";
     };
     $('#pbord').html(exp);
+
+    $('#realisation').html(tab[cpt].realisation.title + " : " + tab[cpt].realisation.description );
   }
